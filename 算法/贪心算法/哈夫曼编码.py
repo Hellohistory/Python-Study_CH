@@ -81,4 +81,3 @@ if __name__ == "__main__":
     print(f'编码后的数据: {encoded_data}')
     print(f'编码表: {code_table}')
     print(f'解码后的数据: {decoded_data}')
-

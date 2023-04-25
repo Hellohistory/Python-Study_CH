@@ -15,4 +15,3 @@ def draw_diamond(n):
 
 n = int(input("输入一个奇数: "))
 draw_diamond(n) # 调用函数
-

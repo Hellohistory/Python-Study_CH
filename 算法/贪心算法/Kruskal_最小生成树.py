@@ -62,4 +62,3 @@ if __name__ == "__main__":
         print(minimum_spanning_tree)
     except ValueError as e:
         print(e)
-
