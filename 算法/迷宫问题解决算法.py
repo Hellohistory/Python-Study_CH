@@ -5,8 +5,7 @@
 start = [0, 0] # 起点坐标
 end = [7, 7] # 终点坐标
 taken = [[1, 0], [1, 1], [1, 2], [1, 3]] # 障碍物坐标
-queue = [] # 队列
-queue.append([start[0], start[1], -1]) # 将起点加入队列
+queue = [[start[0], start[1], -1]]  # 队列
 visited = [] # 记录是否访问过
 maze = [] # 迷宫
 for i in range(8):
