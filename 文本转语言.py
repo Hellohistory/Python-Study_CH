@@ -26,7 +26,7 @@ f = Frame(tts, height=280, width=500, bg="#bebebe")
 f.grid(row=0, column=0, padx=10, pady=5)
 
 # 标签
-lbl = Label(f, text="请输入要转换的文本：")
+lbl = Label(f, text="请输入一段需要播放的文字:")
 lbl.grid(row=1, column=0, padx=10, pady=2)
 
 # 输入框
