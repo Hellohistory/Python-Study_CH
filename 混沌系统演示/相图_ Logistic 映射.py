@@ -26,6 +26,7 @@ def main():
         xs.append(x)
         ys.append(y)
         x, y = 3.9 * x * (1 - x), 3.9 * y * (1 - y) # 混沌系统的计算公式
+        print(f"第{i+1}次迭代的结果: x={x}, y={y}")
 
     plt.scatter(xs, ys, s=0.1, c='black')
     plt.xlabel('x')
