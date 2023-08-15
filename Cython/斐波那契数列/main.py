@@ -1,5 +1,5 @@
 import time
-from fibonacci import fibonacci_cython
+from Cython.斐波那契数列.fibonacci import fibonacci_cython
 
 n = int(input("输入要计算的数:"))  # 要计算的斐波那契数列的索引
 
