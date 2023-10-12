@@ -8,6 +8,7 @@
 import heapq
 from collections import defaultdict
 
+
 class HuffmanNode:
     def __init__(self, char=None, freq=0, left=None, right=None):
         self.char = char
@@ -18,6 +19,7 @@ class HuffmanNode:
     def __lt__(self, other):
         # 用于优先队列中的比较，频率较小的节点优先级更高
         return self.freq < other.freq
+
 
 def huffman_encoding(data):
     # 统计每个字符的频率
@@ -42,18 +44,21 @@ def huffman_encoding(data):
 
     # 生成霍夫曼编码表
     code_table = {}
+
     def generate_codes(node, code=''):
         if node.char:
             code_table[node.char] = code
         else:
             generate_codes(node.left, code + '0')
             generate_codes(node.right, code + '1')
+
     generate_codes(root_node)
 
     # 生成编码后的数据
     encoded_data = ''.join(code_table[char] for char in data)
 
     return encoded_data, code_table
+
 
 def huffman_decoding(encoded_data, code_table):
     # 将霍夫曼编码表反转，方便后续解码
@@ -72,7 +77,6 @@ def huffman_decoding(encoded_data, code_table):
 
 
 if __name__ == "__main__":
-
     data = 'aabbbccccddddeeeee'
     encoded_data, code_table = huffman_encoding(data)
     decoded_data = huffman_decoding(encoded_data, code_table)
