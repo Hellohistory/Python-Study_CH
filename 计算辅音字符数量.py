@@ -17,7 +17,7 @@ def count_con(string):
     c = 0
     for i in range(len(string)):
         if (
-            string[i] not in string_check
+                string[i] not in string_check
         ):  # 如果字符不是元音字母，就增加计数器的值
             c += 1
     return c

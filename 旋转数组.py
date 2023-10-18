@@ -5,7 +5,7 @@ N = int(input("请输入数组大小："))
 num_list = []
 while len(num_list) < N:
     temp = input("请输入整数：")
-    while not temp.isdigit(): # 对输入进行有效性检查
+    while not temp.isdigit():  # 对输入进行有效性检查
         temp = input("请重新输入整数：")
     num_list.append(int(temp))
 

@@ -5,7 +5,7 @@ deck = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 11] * 4
 
 random.shuffle(deck)
 
-print(f'{"*"*58} \n 欢迎来到赌场 - 二十一点 ! \n{"*"*58}')
+print(f'{"*" * 58} \n 欢迎来到赌场 - 二十一点 ! \n{"*" * 58}')
 sleep(2)
 print("终于等到你了")
 sleep(2)
@@ -40,19 +40,19 @@ while len(p_cards) != 2:
         print("玩家的牌是 ", p_cards)
 
 if sum(p_cards) > 21:
-    print(f"你炸了！\n  {'*'*14}庄家赢了!!{'*'*14}\n")
+    print(f"你炸了！\n  {'*' * 14}庄家赢了!!{'*' * 14}\n")
     exit()
 
 if sum(d_cards) > 21:
-    print(f"庄家炸了！\n   {'*'*14} 你赢了!!{'*'*18}\n")
+    print(f"庄家炸了！\n   {'*' * 14} 你赢了!!{'*' * 18}\n")
     exit()
 
 if sum(d_cards) == 21:
-    print(f"{'*'*24}庄家赢了!!{'*'*14}")
+    print(f"{'*' * 24}庄家赢了!!{'*' * 14}")
     exit()
 
 if sum(d_cards) == 21 and sum(p_cards) == 21:
-    print(f"{'*'*17}平局!!{'*'*25}")
+    print(f"{'*' * 17}平局!!{'*' * 25}")
     exit()
 
 
@@ -66,32 +66,32 @@ def dealer_choice():
     print("庄家的总分是 " + str(sum(d_cards)) + "，牌是 ", d_cards)
 
     if sum(p_cards) == sum(d_cards):
-        print(f"{'*'*15}平局!!{'*'*15}")
+        print(f"{'*' * 15}平局!!{'*' * 15}")
         exit()
 
     if sum(d_cards) == 21:
         if sum(p_cards) < 21:
-            print(f"{'*'*23}庄家赢了!!{'*'*18}")
+            print(f"{'*' * 23}庄家赢了!!{'*' * 18}")
         elif sum(p_cards) == 21:
-            print(f"{'*'*20}平局!!{'*'*26}")
+            print(f"{'*' * 20}平局!!{'*' * 26}")
         else:
-            print(f"{'*'*23}庄家赢了!!{'*'*18}")
+            print(f"{'*' * 23}庄家赢了!!{'*' * 18}")
 
     elif sum(d_cards) < 21:
         if sum(p_cards) < 21 and sum(p_cards) < sum(d_cards):
-            print(f"{'*'*23}庄家赢了!!{'*'*18}")
+            print(f"{'*' * 23}庄家赢了!!{'*' * 18}")
         if sum(p_cards) == 21:
-            print(f"{'*'*22}玩家赢了!!{'*'*22}")
+            print(f"{'*' * 22}玩家赢了!!{'*' * 22}")
         if 21 > sum(p_cards) > sum(d_cards):
-            print(f"{'*'*22}玩家赢了!!{'*'*22}")
+            print(f"{'*' * 22}玩家赢了!!{'*' * 22}")
 
     else:
         if sum(p_cards) < 21:
-            print(f"{'*'*22}玩家赢了!!{'*'*22}")
+            print(f"{'*' * 22}玩家赢了!!{'*' * 22}")
         elif sum(p_cards) == 21:
-            print(f"{'*'*22}玩家赢了!!{'*'*22}")
+            print(f"{'*' * 22}玩家赢了!!{'*' * 22}")
         else:
-            print(f"{'*'*23}庄家赢了!!{'*'*18}")
+            print(f"{'*' * 23}庄家赢了!!{'*' * 18}")
 
 
 while sum(p_cards) < 21:
@@ -103,9 +103,9 @@ while sum(p_cards) < 21:
         p_cards.append(deck.pop())
         print("你的总分是 " + str(sum(p_cards)) + "，牌是 ", p_cards)
         if sum(p_cards) > 21:
-            print(f'{"*"*13}你爆了！{"*"*13}\n 庄家赢了!!')
+            print(f'{"*" * 13}你爆了！{"*" * 13}\n 庄家赢了!!')
         if sum(p_cards) == 21:
-            print(f'{"*"*19}你赢了!!{"*"*29}')
+            print(f'{"*" * 19}你赢了!!{"*" * 29}')
 
     else:
         dealer_choice()

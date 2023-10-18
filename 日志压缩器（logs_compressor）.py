@@ -18,7 +18,7 @@ zip_program = "zip.exe"  # 设置变量zip_program-1.1
 for files in os.listdir(logsdir):  # 查找目录中的所有文件
     if files.endswith(".log"):  # 检查目录中的文件是否以.log结尾
         files1 = (
-            files + "." + strftime("%Y-%m-%d") + ".zip"
+                files + "." + strftime("%Y-%m-%d") + ".zip"
         )  # 创建变量files1，这是目录中的文件，然后我们添加一个带有日期和zip扩展名的后缀
         os.chdir(logsdir)  # 更改目录到logsdir
         os.system(

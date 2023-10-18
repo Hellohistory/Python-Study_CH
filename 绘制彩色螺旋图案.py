@@ -1,6 +1,5 @@
 import turtle
 
-
 # 定义颜色列表
 colors = ['red', 'yellow', 'green', 'purple', 'blue', 'orange']
 

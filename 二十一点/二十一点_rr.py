@@ -54,7 +54,7 @@ class Card:
         self.rank = rank  # 点数
 
     def __str__(self):
-        return self.suit+self.rank  # 返回牌的点数和花色
+        return self.suit + self.rank  # 返回牌的点数和花色
 
 
 class Deck:
@@ -192,7 +192,6 @@ def push(player, dealer):
     print("平局！")
 
 
-
 # GAMEPLAY
 player_chips = Chips()
 
@@ -219,48 +218,48 @@ while True:
         "\n规则：尽可能接近21点，但如果超过21点，您将输！\n  A计为1或11。"
     )
 
-    deck = Deck() # 创建一副牌
-    deck.shuffle() # 洗牌
+    deck = Deck()  # 创建一副牌
+    deck.shuffle()  # 洗牌
 
-    player_hand = Hand() # 创建玩家手牌
-    player_hand.add_card(deck.deal()) # 玩家摸一张牌
-    player_hand.add_card(deck.deal()) # 玩家再摸一张牌
+    player_hand = Hand()  # 创建玩家手牌
+    player_hand.add_card(deck.deal())  # 玩家摸一张牌
+    player_hand.add_card(deck.deal())  # 玩家再摸一张牌
 
-    dealer_hand = Hand() # 创建庄家手牌
-    dealer_hand.add_card(deck.deal()) # 庄家摸一张牌
-    dealer_hand.add_card(deck.deal()) # 庄家再摸一张牌
+    dealer_hand = Hand()  # 创建庄家手牌
+    dealer_hand.add_card(deck.deal())  # 庄家摸一张牌
+    dealer_hand.add_card(deck.deal())  # 庄家再摸一张牌
 
-    take_bet(player_chips) # 玩家下注
+    take_bet(player_chips)  # 玩家下注
 
-    show_some(player_hand, dealer_hand) # 显示玩家手牌和庄家手牌
+    show_some(player_hand, dealer_hand)  # 显示玩家手牌和庄家手牌
 
     while playing:
 
-        hit_or_stand(deck, player_hand) # 玩家选择是否继续摸牌
-        show_some(player_hand, dealer_hand) # 显示玩家手牌和庄家手牌
+        hit_or_stand(deck, player_hand)  # 玩家选择是否继续摸牌
+        show_some(player_hand, dealer_hand)  # 显示玩家手牌和庄家手牌
 
         if player_hand.value > 21:
-            player_busts(player_hand, dealer_hand, player_chips) # 玩家爆牌
+            player_busts(player_hand, dealer_hand, player_chips)  # 玩家爆牌
             break
 
     if player_hand.value <= 21:
 
         while dealer_hand.value < 17:
-            hit(deck, dealer_hand) # 庄家摸牌
+            hit(deck, dealer_hand)  # 庄家摸牌
 
-        show_all(player_hand, dealer_hand) # 显示玩家手牌和庄家手牌
+        show_all(player_hand, dealer_hand)  # 显示玩家手牌和庄家手牌
 
         if dealer_hand.value > 21:
-            dealer_busts(player_hand, dealer_hand, player_chips) # 庄家爆牌
+            dealer_busts(player_hand, dealer_hand, player_chips)  # 庄家爆牌
 
         elif dealer_hand.value > player_hand.value:
-            dealer_wins(player_hand, dealer_hand, player_chips) # 庄家胜利
+            dealer_wins(player_hand, dealer_hand, player_chips)  # 庄家胜利
 
         elif dealer_hand.value < player_hand.value:
-            player_wins(player_hand, dealer_hand, player_chips) # 玩家胜利
+            player_wins(player_hand, dealer_hand, player_chips)  # 玩家胜利
 
         else:
-            push(player_hand, dealer_hand) # 平局
+            push(player_hand, dealer_hand)  # 平局
 
     print("\n您当前的余额为", player_chips.total)
 

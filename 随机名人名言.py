@@ -12,7 +12,7 @@ def return_quote():
     response = requests.get("https://api.gushi.ci/all.json")
     json_data = response.json()
     quote = (
-        json_data["content"] + " -" + json_data["author"]
+            json_data["content"] + " -" + json_data["author"]
     )  # 将名言和作者名拼接为一个字符串
     return quote
 
