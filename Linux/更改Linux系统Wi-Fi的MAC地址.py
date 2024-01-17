@@ -4,10 +4,12 @@
 import random
 from subprocess import PIPE, Popen
 
+
 # 用于返回终端命令结果的函数
 def cret(command):
     process = Popen(args=command, stdout=PIPE, shell=True)
     return process.communicate()[0]
+
 
 # 生成随机MAC地址的函数
 def randmac():
@@ -20,9 +22,11 @@ def randmac():
         random.randint(0x00, 0xFF),
     ]
 
+
 # 将MAC地址转换为字符串形式
 def retrandmac(mac):
     return ":".join(map(lambda x: "%02x" % x, mac))
+
 
 print("                                             +-+-+-+ +-+-+-+-+-+-+-+")
 print("                                             |M|A|C| |c|h|a|n|g|e|r|")

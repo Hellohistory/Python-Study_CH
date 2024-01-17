@@ -3,6 +3,8 @@
 假设我们有一个在线商城，需要根据用户对商品的评价进行排序，以便展示给其他用户参考。
 具体地，我们可以定义每个评价包含三个字段：评价人姓名、评价时间和评价星级（1~5），并且我们将所有评价存储在一个包含多个评价的列表中。
 """
+
+
 def merge_sort(lst):
     if len(lst) <= 1:
         return lst
@@ -12,6 +14,7 @@ def merge_sort(lst):
     left = merge_sort(left)
     right = merge_sort(right)
     return merge(left, right)
+
 
 def merge(left, right):
     result = []
@@ -26,6 +29,7 @@ def merge(left, right):
     result += left[i:]
     result += right[j:]
     return result
+
 
 # 测试数据
 reviews = [

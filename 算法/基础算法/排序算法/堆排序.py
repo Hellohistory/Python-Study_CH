@@ -18,6 +18,7 @@ def heap_sort(arr):
         arr[i], arr[0] = arr[0], arr[i]  # 将当前最大值放到数组末尾
         heapify(arr, i, 0)
 
+
 # 调整堆
 def heapify(arr, n, i):
     largest = i  # 初始化最大值为根节点
@@ -36,6 +37,7 @@ def heapify(arr, n, i):
     if largest != i:
         arr[i], arr[largest] = arr[largest], arr[i]
         heapify(arr, n, largest)  # 递归调整堆
+
 
 # 测试
 arr = [12, 11, 13, 5, 6, 7]

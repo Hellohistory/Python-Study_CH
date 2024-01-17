@@ -4,17 +4,21 @@
 def add(x, y):
     return x + y
 
+
 # 定义减法函数
 def subtract(x, y):
     return x - y
+
 
 # 定义乘法函数
 def multiply(x, y):
     return x * y
 
+
 # 定义除法函数
 def divide(x, y):
     return x / y
+
 
 # 输出可选操作
 print("选择操作：")

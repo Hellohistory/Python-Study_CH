@@ -6,6 +6,7 @@ w.geometry("500x500")
 w.title("计算器ax")
 w.configure(bg="#03befc")
 
+
 # 函数定义（数字按钮）
 def calc1():
     b = txt1.get()
@@ -13,11 +14,13 @@ def calc1():
     b1 = b + btn1["text"]
     txt1.insert(0, b1)
 
+
 def calc2():
     b = txt1.get()
     txt1.delete(0, END)
     b1 = b + btn2["text"]
     txt1.insert(0, b1)
+
 
 def calc3():
     b = txt1.get()
@@ -25,11 +28,13 @@ def calc3():
     b1 = b + btn3["text"]
     txt1.insert(0, b1)
 
+
 def calc4():
     b = txt1.get()
     txt1.delete(0, END)
     b1 = b + btn4["text"]
     txt1.insert(0, b1)
+
 
 def calc5():
     b = txt1.get()
@@ -37,11 +42,13 @@ def calc5():
     b1 = b + btn5["text"]
     txt1.insert(0, b1)
 
+
 def calc6():
     b = txt1.get()
     txt1.delete(0, END)
     b1 = b + btn6["text"]
     txt1.insert(0, b1)
+
 
 def calc7():
     b = txt1.get()
@@ -49,11 +56,13 @@ def calc7():
     b1 = b + btn7["text"]
     txt1.insert(0, b1)
 
+
 def calc8():
     b = txt1.get()
     txt1.delete(0, END)
     b1 = b + btn8["text"]
     txt1.insert(0, b1)
+
 
 def calc9():
     b = txt1.get()
@@ -61,14 +70,17 @@ def calc9():
     b1 = b + btn9["text"]
     txt1.insert(0, b1)
 
+
 def calc0():
     b = txt1.get()
     txt1.delete(0, END)
     b1 = b + btn0["text"]
     txt1.insert(0, b1)
 
+
 # 函数定义（运算符按钮）
 x = 0
+
 
 def add():
     global x
@@ -76,14 +88,17 @@ def add():
     txt1.delete(0, END)
     x = x + 1
 
+
 def subtract():
     global x
     subtract.b = eval(txt1.get())
     txt1.delete(0, END)
     x = x + 2
 
+
 def get():
     b = txt1.get()
+
 
 def equals():
     global x
@@ -106,10 +121,12 @@ def equals():
         cls()
         txt1.insert(0, c)
 
+
 def cls():
     global x
     x = 0
     txt1.delete(0, END)
+
 
 def multiply():
     global x
@@ -117,11 +134,13 @@ def multiply():
     txt1.delete(0, END)
     x = x + 3
 
+
 def divide():
     global x
     divide.b = eval(txt1.get())
     txt1.delete(0, END)
     x = x + 4
+
 
 # 创建标签
 lbl1 = Label(

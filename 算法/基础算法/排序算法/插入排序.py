@@ -11,15 +11,17 @@ students = [
     {'姓名': '田七', '年龄': 20, '成绩': 80},
 ]
 
+
 def insertion_sort_students(student_list):
     for i in range(1, len(student_list)):
         current_student = student_list[i]
         j = i - 1
-        while j >= 0 and student_list[j]['成绩'] < current_student['成绩']: #根据成绩来进行排序
-            student_list[j+1] = student_list[j]
+        while j >= 0 and student_list[j]['成绩'] < current_student['成绩']:  # 根据成绩来进行排序
+            student_list[j + 1] = student_list[j]
             j -= 1
-        student_list[j+1] = current_student
+        student_list[j + 1] = current_student
     return student_list
+
 
 sorted_students = insertion_sort_students(students)
 print(sorted_students)

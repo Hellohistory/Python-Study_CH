@@ -42,5 +42,6 @@ def main():
     ax.set_title('Lorenz System')
     plt.show()
 
+
 if __name__ == "__main__":
     main()

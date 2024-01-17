@@ -6,6 +6,7 @@ print("您好，大家好！")
 time.sleep(1)
 print("让我们来找找 Binod！")
 
+
 def checkBinod(file):
     """
     检查给定的文本文件是否包含“binod”单词。

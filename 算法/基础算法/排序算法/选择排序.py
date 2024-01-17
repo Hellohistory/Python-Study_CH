@@ -16,15 +16,17 @@ name_list = [
     {'id': '0123456789', '成绩': 89}
 ]
 
+
 def sort_by_score(name_list):
     n = len(name_list)
     for i in range(n):
         max_index = i
-        for j in range(i+1, n):
+        for j in range(i + 1, n):
             if name_list[j]['成绩'] > name_list[max_index]['成绩']:
                 max_index = j
         name_list[i], name_list[max_index] = name_list[max_index], name_list[i]
     return name_list
+
 
 sorted_list = sort_by_score(name_list)
 print(sorted_list)

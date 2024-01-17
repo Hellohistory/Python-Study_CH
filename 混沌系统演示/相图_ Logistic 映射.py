@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 
+
 def main():
     print("本程序演示一个混沌函数的相图。")
 
@@ -7,8 +8,8 @@ def main():
         try:
             x0 = float((input("请输入初始 x 值(0到1之间):")))
             y0 = float((input("请输入初始 y 值(0到1之间):")))
-            num =int(input('请输入您想要迭代的次数:'))
-            if 0 < x0 and x0 < 1 and 0 < y0 and y0 < 1:
+            num = int(input('请输入您想要迭代的次数:'))
+            if 0 < x0 < 1 and 0 < y0 < 1:
                 break
             else:
                 print("请输入正确的数字。")
@@ -34,6 +35,7 @@ def main():
     plt.ylabel('y')
     plt.title('混沌系统相图')
     plt.show()
+
 
 if __name__ == "__main__":
     main()
