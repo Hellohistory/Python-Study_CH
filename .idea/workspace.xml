@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="97ea72bf-2bb7-436d-94f8-d4b414eeb8bc" name="更改" comment="修改符合PEP8规范">
+      <change afterPath="$PROJECT_DIR$/.idea/Python-Study_CH.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/内置函数.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法/加密算法/SHA1哈希算法.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Hellohistory&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="51bb0783-53c5-4719-8041-f5b6d41126b4" />
+        <option name="url" value="https://github.com/Hellohistory/Python-Study_CH.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2Uehv2xlHaO52PLFrZSnD0FWf0Y" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.冒泡排序.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/Code/GithubStudy/Python-master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "http.proxy",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\GithubProject\Python-Study_CH\许可证" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-50da183f06c8-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13135.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="97ea72bf-2bb7-436d-94f8-d4b414eeb8bc" name="更改" comment="" />
+      <created>1693306181815</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693306181815</updated>
+      <workItem from="1693306183733" duration="2304000" />
+      <workItem from="1693308565677" duration="18000" />
+      <workItem from="1697098201658" duration="923000" />
+      <workItem from="1697641109121" duration="1051000" />
+      <workItem from="1699016375502" duration="264000" />
+      <workItem from="1699016676697" duration="137000" />
+      <workItem from="1705495125627" duration="1148000" />
+      <workItem from="1707837644318" duration="805000" />
+    </task>
+    <task id="LOCAL-00001" summary="更新">
+      <option name="closed" value="true" />
+      <created>1693308407970</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693308407970</updated>
+    </task>
+    <task id="LOCAL-00002" summary="修改符合PEP8规范">
+      <option name="closed" value="true" />
+      <created>1697098498697</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697098498697</updated>
+    </task>
+    <task id="LOCAL-00003" summary="修改符合PEP8规范">
+      <option name="closed" value="true" />
+      <created>1697644251548</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697644251548</updated>
+    </task>
+    <task id="LOCAL-00004" summary="修改符合PEP8规范">
+      <option name="closed" value="true" />
+      <created>1705495671113</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705495671113</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="更新" />
+    <MESSAGE value="修改符合PEP8规范" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改符合PEP8规范" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Python_Study_CH$Binod_.coverage" NAME="Binod 检测器 覆盖结果" MODIFIED="1705495620918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Binod 检测器" />
+    <SUITE FILE_PATH="coverage/Python_Study_CH$fibonacci_pyx.coverage" NAME="fibonacci.pyx 覆盖结果" MODIFIED="1705495609393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cython/斐波那契数列" />
+    <SUITE FILE_PATH="coverage/Python_Study_CH$___Rossler.coverage" NAME="三维图 _ Rossler 覆盖结果" MODIFIED="1699016688398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/混沌系统演示" />
+    <SUITE FILE_PATH="coverage/Python_Study_CH$Bellman_Ford_.coverage" NAME="Bellman-Ford_最短路径 覆盖结果" MODIFIED="1699016606405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法/贪心算法" />
+    <SUITE FILE_PATH="coverage/Python_Study_CH$_.coverage" NAME="绘制_我爱你 覆盖结果" MODIFIED="1693307039384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_Study_CH$setup.coverage" NAME="setup 覆盖结果" MODIFIED="1699016635007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cython/斐波那契数列" />
+    <SUITE FILE_PATH="coverage/Python_Study_CH$Linked_List.coverage" NAME="单链表（Linked List）数据结构 覆盖结果" MODIFIED="1697641132902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/链表/单链表" />
+    <SUITE FILE_PATH="coverage/Python_Study_CH$_1.coverage" NAME="斐波那契数列_生成1 覆盖结果" MODIFIED="1699016798695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/斐波那契数列" />
+    <SUITE FILE_PATH="coverage/Python_Study_CH$Python.coverage" NAME="堆栈的Python实现 覆盖结果" MODIFIED="1697641156077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_Study_CH$LinuxWi_FiMAC.coverage" NAME="更改Linux系统Wi-Fi的MAC地址 覆盖结果" MODIFIED="1705495527023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Linux" />
+    <SUITE FILE_PATH="coverage/Python_Study_CH$Kruskal_.coverage" NAME="Kruskal_最小生成树 覆盖结果" MODIFIED="1697098448822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法/贪心算法" />
+    <SUITE FILE_PATH="coverage/Python_Study_CH$__Logistic_.coverage" NAME="三维图_ Logistic 映射 覆盖结果" MODIFIED="1699016780496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/混沌系统演示" />
+    <SUITE FILE_PATH="coverage/Python_Study_CH$.coverage" NAME="冒泡排序 覆盖结果" MODIFIED="1707838135432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法/基础算法/排序算法" />
+    <SUITE FILE_PATH="coverage/Python_Study_CH$Numpy_.coverage" NAME="Numpy_傅里叶变换 覆盖结果" MODIFIED="1705495502244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/傅里叶变换" />
+    <SUITE FILE_PATH="coverage/Python_Study_CH$Hello__world_.coverage" NAME="打印“Hello, world!” 覆盖结果" MODIFIED="1697641263681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_Study_CH$Doctests____.coverage" NAME="Doctests (最小公倍数计算 内) 覆盖结果" MODIFIED="1693308329366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数学计算及相关" />
+  </component>
+</project>
