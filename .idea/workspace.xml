@@ -4,28 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97ea72bf-2bb7-436d-94f8-d4b414eeb8bc" name="更改" comment="20240229开始系统学习标准库">
-      <change afterPath="$PROJECT_DIR$/标准库学习/decimal模块舍入方式学习/与内置函数round的对比.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Python-Study_CH.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python-Study_CH.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JupyterNotebook/内置函数.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/JupyterNotebook/内置函数.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linked_List_Addition(Python链表实现).py" beforeDir="false" afterPath="$PROJECT_DIR$/Linked_List_Addition(Python链表实现).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Socket_用法_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Socket_用法_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Socket_用法_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Socket_用法_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decimal模块学习/舍入模式/向正无穷方向舍入.py" beforeDir="false" afterPath="$PROJECT_DIR$/标准库学习/decimal模块舍入方式学习/向正无穷方向舍入.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decimal模块学习/舍入模式/向负无穷方向舍入.py" beforeDir="false" afterPath="$PROJECT_DIR$/标准库学习/decimal模块舍入方式学习/向负无穷方向舍入.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decimal模块学习/舍入模式/向零方向舍入.py" beforeDir="false" afterPath="$PROJECT_DIR$/标准库学习/decimal模块舍入方式学习/向零方向舍入.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decimal模块学习/舍入模式/四舍五入.py" beforeDir="false" afterPath="$PROJECT_DIR$/标准库学习/decimal模块舍入方式学习/四舍五入.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decimal模块学习/舍入模式/最近舍入.py" beforeDir="false" afterPath="$PROJECT_DIR$/标准库学习/decimal模块舍入方式学习/最近舍入.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decimal模块学习/舍入模式/特殊舍入规则.py" beforeDir="false" afterPath="$PROJECT_DIR$/标准库学习/decimal模块舍入方式学习/特殊舍入规则.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decimal模块学习/舍入模式/远离零方向舍入.py" beforeDir="false" afterPath="$PROJECT_DIR$/标准库学习/decimal模块舍入方式学习/远离零方向舍入.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decimal模块学习/舍入模式/银行家舍入法.py" beforeDir="false" afterPath="$PROJECT_DIR$/标准库学习/decimal模块舍入方式学习/银行家舍入法.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/元组演示.py" beforeDir="false" afterPath="$PROJECT_DIR$/元组演示.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/元音计数器.py" beforeDir="false" afterPath="$PROJECT_DIR$/元音计数器.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/判断括号是否平衡.py" beforeDir="false" afterPath="$PROJECT_DIR$/判断括号是否平衡.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数学计算及相关/判断为奇数还是偶数.py" beforeDir="false" afterPath="$PROJECT_DIR$/数学计算及相关/判断为奇数还是偶数.py" afterDir="false" />
-    </list>
+    <list default="true" id="97ea72bf-2bb7-436d-94f8-d4b414eeb8bc" name="更改" comment="20240315更新" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,7 +80,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -110,6 +89,7 @@
       <recent name="D:\Code\GithubProject\Python-Study_CH\许可证" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\GithubProject\Python-Study_CH\标准库学习\decimal模块舍入方式学习" />
       <recent name="D:\Code\GithubProject\Python-Study_CH\JupyterNotebook" />
     </key>
   </component>
@@ -141,7 +121,7 @@
       <workItem from="1709187453612" duration="61000" />
       <workItem from="1709898618032" duration="353000" />
       <workItem from="1710174895661" duration="331000" />
-      <workItem from="1710508655244" duration="340000" />
+      <workItem from="1710508655244" duration="686000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <option name="closed" value="true" />
@@ -215,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709140304600</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="20240315更新">
+      <option name="closed" value="true" />
+      <created>1710509235159</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1710509235159</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,10 +226,12 @@
     <MESSAGE value="20240213学习" />
     <MESSAGE value="20240228学习" />
     <MESSAGE value="20240229开始系统学习标准库" />
-    <option name="LAST_COMMIT_MESSAGE" value="20240229开始系统学习标准库" />
+    <MESSAGE value="20240315更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="20240315更新" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python_Study_CH$Binod_.coverage" NAME="Binod 检测器 覆盖结果" MODIFIED="1705495620918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Binod 检测器" />
+    <SUITE FILE_PATH="coverage/Python_Study_CH$round.coverage" NAME="与内置函数round的对比 覆盖结果" MODIFIED="1710509185262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/标准库学习/decimal模块舍入方式学习" />
     <SUITE FILE_PATH="coverage/Python_Study_CH$fibonacci_pyx.coverage" NAME="fibonacci.pyx 覆盖结果" MODIFIED="1705495609393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cython/斐波那契数列" />
     <SUITE FILE_PATH="coverage/Python_Study_CH$___Rossler.coverage" NAME="三维图 _ Rossler 覆盖结果" MODIFIED="1699016688398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/混沌系统演示" />
     <SUITE FILE_PATH="coverage/Python_Study_CH$Bellman_Ford_.coverage" NAME="Bellman-Ford_最短路径 覆盖结果" MODIFIED="1699016606405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法/贪心算法" />
