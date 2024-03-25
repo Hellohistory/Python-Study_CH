@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97ea72bf-2bb7-436d-94f8-d4b414eeb8bc" name="更改" comment="20240315更新" />
+    <list default="true" id="97ea72bf-2bb7-436d-94f8-d4b414eeb8bc" name="更改" comment="20240325更新" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +30,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -67,9 +68,12 @@
     "Python.fft_cython.pyx.executor": "Run",
     "Python.与内置函数round的对比.executor": "Run",
     "Python.冒泡排序.executor": "Run",
+    "Python.列表操作演示.executor": "Run",
     "Python.单链表中检测并移除循环.executor": "Run",
     "Python.打印标准库数量与名称.executor": "Run",
     "Python.插入排序.executor": "Run",
+    "Python.数据评分算法.executor": "Run",
+    "Python.时制转换.executor": "Run",
     "Python.第一个numpy程序.executor": "Run",
     "Python.计算一个数字的所有质数因子之积.executor": "Run",
     "Python.迷宫问题解决算法.executor": "Run",
@@ -78,7 +82,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Code/GithubProject/Python-Study_CH",
+    "last_opened_file_path": "D:/Code/GithubStudy/Python-master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -93,6 +97,7 @@
       <recent name="D:\Code\GithubProject\Python-Study_CH\许可证" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\GithubProject\Python-Study_CH\算法" />
       <recent name="D:\Code\GithubProject\Python-Study_CH\库学习\标准库" />
       <recent name="D:\Code\GithubProject\Python-Study_CH\标准库学习\decimal模块舍入方式学习" />
       <recent name="D:\Code\GithubProject\Python-Study_CH\JupyterNotebook" />
@@ -128,6 +133,7 @@
       <workItem from="1710174895661" duration="331000" />
       <workItem from="1710508655244" duration="882000" />
       <workItem from="1710517330799" duration="1043000" />
+      <workItem from="1711345023704" duration="1457000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <option name="closed" value="true" />
@@ -233,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710518317369</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="20240325更新">
+      <option name="closed" value="true" />
+      <created>1711346427157</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1711346427157</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,11 +271,12 @@
     <MESSAGE value="20240228学习" />
     <MESSAGE value="20240229开始系统学习标准库" />
     <MESSAGE value="20240315更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="20240315更新" />
+    <MESSAGE value="20240325更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="20240325更新" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Python_Study_CH$numpy.coverage" NAME="第一个numpy程序 覆盖结果" MODIFIED="1710517774005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/库学习/第三方库/numpy学习" />
     <SUITE FILE_PATH="coverage/Python_Study_CH$fft_cython_pyx.coverage" NAME="fft_cython.pyx 覆盖结果" MODIFIED="1710518259206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cython学习/傅里叶变换" />
+    <SUITE FILE_PATH="coverage/Python_Study_CH$numpy.coverage" NAME="第一个numpy程序 覆盖结果" MODIFIED="1710517774005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/库学习/第三方库/numpy学习" />
     <SUITE FILE_PATH="coverage/Python_Study_CH$Binod_.coverage" NAME="Binod 检测器 覆盖结果" MODIFIED="1705495620918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Binod 检测器" />
     <SUITE FILE_PATH="coverage/Python_Study_CH$round.coverage" NAME="与内置函数round的对比 覆盖结果" MODIFIED="1710509185262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/标准库学习/decimal模块舍入方式学习" />
     <SUITE FILE_PATH="coverage/Python_Study_CH$fibonacci_pyx.coverage" NAME="fibonacci.pyx 覆盖结果" MODIFIED="1705495609393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cython/斐波那契数列" />
@@ -275,7 +290,7 @@
     <SUITE FILE_PATH="coverage/Python_Study_CH$LinuxWi_FiMAC.coverage" NAME="更改Linux系统Wi-Fi的MAC地址 覆盖结果" MODIFIED="1705495527023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Linux" />
     <SUITE FILE_PATH="coverage/Python_Study_CH$Kruskal_.coverage" NAME="Kruskal_最小生成树 覆盖结果" MODIFIED="1697098448822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法/贪心算法" />
     <SUITE FILE_PATH="coverage/Python_Study_CH$__Logistic_.coverage" NAME="三维图_ Logistic 映射 覆盖结果" MODIFIED="1699016780496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/混沌系统演示" />
-    <SUITE FILE_PATH="coverage/Python_Study_CH$.coverage" NAME="计算一个数字的所有质数因子之积 覆盖结果" MODIFIED="1710517968542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数学计算及相关" />
+    <SUITE FILE_PATH="coverage/Python_Study_CH$.coverage" NAME="数据评分算法 覆盖结果" MODIFIED="1711346326652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法" />
     <SUITE FILE_PATH="coverage/Python_Study_CH$Numpy_.coverage" NAME="Numpy_傅里叶变换 覆盖结果" MODIFIED="1710517811648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/傅里叶变换" />
     <SUITE FILE_PATH="coverage/Python_Study_CH$Hello__world_.coverage" NAME="打印“Hello, world!” 覆盖结果" MODIFIED="1697641263681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Study_CH$Doctests____.coverage" NAME="Doctests (最小公倍数计算 内) 覆盖结果" MODIFIED="1693308329366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数学计算及相关" />
